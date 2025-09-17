@@ -51,6 +51,7 @@ export const eventType = defineType({
         reason: 'Use the "Event format" field instead.',
       },
       readOnly: true,
+      hidden: true,
       options: {
         list: ['in-person', 'virtual'],
         layout: 'radio',
